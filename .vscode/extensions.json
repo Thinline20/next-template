@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "jota0222.multi-formatter",
+        "esbenp.prettier-vscode",
+        "biomejs.biome"
+    ]
+}

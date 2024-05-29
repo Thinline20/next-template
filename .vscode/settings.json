@@ -1,0 +1,23 @@
+{
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "prettier.configPath": ".prettierrc",
+    "[typescript]": {
+        "editor.defaultFormatter": "Jota0222.multi-formatter",
+        "multiFormatter.formatterList": [
+            "esbenp.prettier-vscode",
+            "biomejs.biome"
+        ]
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "Jota0222.multi-formatter",
+        "multiFormatter.formatterList": [
+            "esbenp.prettier-vscode",
+            "biomejs.biome"
+        ]
+    },
+    "editor.codeActionsOnSave": {
+        "quickfix": "explicit",
+        "quickfix.biome": "explicit",
+        "source.organizeImports.biome": "explicit"
+    }
+}
